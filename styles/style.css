@@ -1,0 +1,52 @@
+/* estilos propios */
+
+/* * {
+    background-color: aqua;
+} */
+
+.nav-div {
+    /* background-color: #353a40; */
+    background-color: beige;
+}
+.nav-bar-colors {
+    background-color: #353a40;
+    color: #fefffb;
+}
+
+.nav-link {
+    color: #9b9ca0;
+}
+
+.logo {
+    /* background-color: brown;
+    width: 15%; */
+    /* padding-top: 25px; */
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 0px;
+    margin-left: 6vw;
+    margin-top: 0px;
+    width: 9vw;
+    min-width: 60px;
+    min-height: 5px;
+}
+
+.nav {
+    background-color: #353a40;
+}
+.navbar-nav {
+    background-color: aquamarine;
+    display: flex;
+    justify-items: end;
+    color: #9b9ca0;
+    background-color: #353a40;
+    
+}
+
+.container-fluid {
+    width: auto;
+    margin-right: 6rem;
+    /* justify-content: space-evenly */
+
+}
