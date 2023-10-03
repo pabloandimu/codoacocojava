@@ -1,52 +1,227 @@
 /* estilos propios */
 
-/* * {
-    background-color: aqua;
-} */
+/* NAV BAR *//* NAV BAR *//* NAV BAR *//* NAV BAR *//* NAV BAR */
 
-.nav-div {
-    /* background-color: #353a40; */
-    background-color: beige;
-}
 .nav-bar-colors {
     background-color: #353a40;
     color: #fefffb;
 }
-
-.nav-link {
-    color: #9b9ca0;
+.h2-nav{
+    font-size: 1.9rem;
+    margin-top: -10px; 
+    margin-left: -10px;
+    width: 350px;
 }
 
-.logo {
-    /* background-color: brown;
-    width: 15%; */
-    /* padding-top: 25px; */
-    display: inline-block;
-    margin: 0px;
-    padding: 0px;
-    margin-right: 0px;
-    margin-left: 6vw;
-    margin-top: 0px;
-    width: 9vw;
-    min-width: 60px;
-    min-height: 5px;
+@media (min-width: 992px) {
+    .navbar-nav {
+        padding-left: 12.5rem;
+    }
+}
+
+@media (max-width: 992px) {
+    #carouselExampleCaptions {
+        display: none;
+    }
 }
 
 .nav {
     background-color: #353a40;
 }
+
+/* .navbar {
+    height: 7.2rem;
+} */
 .navbar-nav {
+    
+    font-size: 1.52rem;
     background-color: aquamarine;
     display: flex;
     justify-items: end;
     color: #9b9ca0;
-    background-color: #353a40;
-    
+    background-color: #353a40;       
+    margin-top: -11px;
+
 }
 
-.container-fluid {
-    width: auto;
-    margin-right: 6rem;
-    /* justify-content: space-evenly */
+.nav-link {
+    margin: 4px;
+}
+
+.nav-link {
+    color: #9b9ca0;
+}
+.logo {
+    /* background-color: brown;
+    width: 15%; */
+    /* padding-top: 25px; */
+    display: flex;
+    margin: 0px;
+    padding: 0.7rem;
+    margin-right: 0px;
+    margin-left: 6.3vw;
+    margin-top: -8px;
+    width: 12.2vw;
+    min-width: 100px;
+    min-height: 5px;
+}
+.space-navbar {
+    /* width: auto; */
+    /* margin-left: 25rem; */
+    /* background-color: #fec107; */
+    display: flex !important;
+    justify-content: end !important;
+} 
+
+/* .derecha {
+    display: flex;
+    justify-content: end;
+    border: 15px white;
+    margin: 100px;
+} */
+
+/* CARROUSEL *//* CARROUSEL *//* CARROUSEL *//* CARROUSEL *//* CARROUSEL *//* CARROUSEL */
+.img-car-size {
+
+    margin-top: -208px;
+    margin-left: -14px;
+    width: 101.5%;
+    height: 100%;
+    max-height: 100%;
+    margin-bottom: -82px;
+    /* max-height: 500px; */
+    /* max-height: 80%; */
+}
+
+.carousel-item active {
+    height: 50%;
+}.texto-carr-heading {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: right;
+    margin-bottom: 0.3rem;
+}
+.texto-carr {
+    font-size: 1.53rem;
+    text-align: right; 
+}
+.contenedor-carrousel {
+    background-color: rgb(154, 14, 14);
+    opacity: 50%;
+}
+
+.container-let-carr{
+    text-align: right;
+    margin: auto
+}
+
+.carousel-caption{
+
+    position: absolute;
+    right: 1%;
+    left: 41.4%;
+    width: 43%;
+    top: 31%;
+
+}
+
+.carouselExampleCaptions {
+    max-height: 50%;
+}
+
+.btn-primary {
+   /* background-color .opacity: 100%; */
+    color: aqua;
+}
+
+.carr-boton{
+    color: #fefffb;
+    border-color: #fefffb;
+    font-size: 1.52rem;
+
+    margin-right: 0.30rem;
+    margin-top: 0.9rem;
+    margin-left: 0.7rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    padding-left: 1rem;
+    padding-right: 1.3rem;
+}
+.quieroser {
+    background-attachment: fixed;
+    font-size: 1.54rem;
+    /* background-color opacity: 50%; */
+}
+
+.quierocomprar {
+    /* background-color opacity: 50%; */
+    background-color: hsl(133, 61%, 41%);
+    border: #ffffff00;
+}
+
+.conoce {
+    margin-top: 2rem;
+    margin-bottom: 0px;
+}
+
+.oradores {
+    margin-bottom: 0.8rem;
+}
+
+/* TARJETAS CARDS */
+.badges {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.javascript {
+    background-color: #fec107;
+}
+
+.text-bg-info {
+    color: rgb(255, 255, 255) !important;
+}
+
+.conten2 {    
+    
+    margin: 0px;
+    padding: 0px;
+    margin-top: 3rem;
+}
+
+.bsoct {
+    background-color: #353a40; 
+    padding-top: 0.5rem;
+    color: #fefffb;
+}
+
+.marco {
+    margin-top: 0.5px;
+    /* padding-right: 0.5px; */
+    border: 1px;
+    border-style: ridge;
+    /* margin-right: -5px; */
+}
+
+.marco-sup {
+    border-top: 1px solid #000;
+}
+
+.hablar {
+    backdrop-filter: blur(10px);
+}
+
+.degradado {
+    background: linear-gradient(to right, #1c3643, #1e5372);
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    color: white;
+}
+
+.letrasFooter {
+    font-size: 1.3rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 
 }
