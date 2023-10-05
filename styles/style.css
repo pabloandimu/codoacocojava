@@ -3,26 +3,25 @@
 /* NAV BAR */ /* NAV BAR */ /* NAV BAR */ /* NAV BAR */ /* NAV BAR */
 
 .logo {
-  margin-top: 0.30rem;
+  margin-top: 0.3rem;
   margin-left: 6.2vw;
   width: 7.9vw;
   min-width: 25%;
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1000px) {
   .navbar-collapse {
-      padding-bottom: 0.9rem;
-      background-color: #fec107;
+    padding-bottom: 0.9rem;
+    background-color: #fec107;
   }
 }
 .h2-nav {
   font-size: 1.9rem;
-  margin-top: 0.30rem;
+  margin-top: 0.3rem;
   font-weight: normal;
   justify-content: center;
   align-items: center;
   color: white;
-
 }
 
 .navbar-nav {
@@ -42,12 +41,12 @@
   font-size: x-large;
 }
 
-.ul-espaciado{
+.ul-espaciado {
   margin-top: 0.3rem;
   margin-right: 7.6rem;
 }
 
-.nav-item{
+.nav-item {
   margin-left: 0.7rem;
 }
 
@@ -59,7 +58,6 @@
 }
 
 .navbar-collapse {
-
   align-items: center;
   justify-content: space-between;
   background-color: #353a40;
@@ -67,9 +65,13 @@
 }
 
 nav-bar-colors {
-    background-color: #353a40;
-    color: #fefffb;
+  background-color: #353a40;
+  color: #fefffb;
+}
 
+.imagen {
+  background-image: url("../images/ba1.jpg");
+  filter: brightness(50%);
 }
 /*
 .h2-nav{
@@ -121,9 +123,9 @@ nav-bar-colors {
 /* .logo {
     /* background-color: brown;
     width: 15%; */
-*/
-    /* padding-top: 25px; */
-    /* display: flex;
+
+/* padding-top: 25px; */
+/* display: flex;
     margin: 0px;
     padding: 0.7rem;
     margin-right: 0px;
@@ -135,11 +137,12 @@ nav-bar-colors {
 } */
 /* .space-navbar {
     /* width: auto; */
-    /* margin-left: 25rem; */
-    /* background-color: #fec107; */
-    /* display: flex !important;
+/* margin-left: 25rem; */
+/* background-color: #fec107; */
+/* display: flex !important;
     justify-content: end !important;
-}  */ */
+}  */
+*/
 
 /* .derecha {
     display: flex;
@@ -149,6 +152,11 @@ nav-bar-colors {
 } */
 
 /* CARROUSEL *//* CARROUSEL *//* CARROUSEL *//* CARROUSEL *//* CARROUSEL *//* CARROUSEL */
+
+/* .celu {
+  display: none;
+} */
+
 .img-car-size {
   margin-top: -50%;
   margin-left: -14px;
@@ -173,9 +181,10 @@ nav-bar-colors {
   font-size: 1.53rem;
   text-align: right;
 }
-.contenedor-carrousel {
-  background-color: rgb(154, 14, 14);
-  opacity: 50%;
+@media screen and (max-width: 1106px) {
+  .contenedor-carrousel {
+    display: none;
+  }
 }
 
 .container-let-carr {
@@ -183,8 +192,7 @@ nav-bar-colors {
   margin: auto;
 }
 
-
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1000px) {
   .carousel-caption {
     position: absolute;
     right: 1%;
@@ -194,32 +202,69 @@ nav-bar-colors {
   }
 }
 
-
-
-@media screen and (max-width: 1000px){
-.carousel-inner{
-  display: none;
-}
+@media screen and (max-width: 1000px) {
+  .carousel-inner {
+    visibility:hidden;
+  }
 }
 
-@media screen and (max-width: 1000px){
-  .carousel-control-prev{
+@media screen and (max-width: 1000px) {
+  .carousel-control-prev {
+    visibility:hidden;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .carousel-control-next {
+    visibility:hidden;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .carousel-indicators {
+    visibility:hidden;
+  }
+}
+
+
+
+
+/* @media only screen and (max-width: 880px) {
+  .celu {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+} */
+
+/* @media only screen and (min-width: 900px) {
+  .celu {
+    display: block;
+    color: #000;
+  }
+} */
+
+.celu {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1104px) {
+  .celu {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1107px) {
+  .celular {
     display: none;
   }
+}
+
+/* @media screen and (min-width: 1000px) {
+  .card-img-top {
+    display: none;
   }
-
-  @media screen and (max-width: 1000px){
-    .carousel-control-next{
-      display: none;
-    }
-    }
-
-    @media screen and (max-width: 1000px){
-      .carousel-indicators{
-        display: none;
-      }
-      }
-
+} */
 
 .carouselExampleCaptions {
   max-height: 50%;
@@ -229,7 +274,7 @@ nav-bar-colors {
   margin-top: -205px;
   /* width: 150.5%; */
   margin-bottom: -82px;
-} 
+}
 
 .btn-primary {
   /* background-color .opacity: 100%; */
@@ -293,9 +338,9 @@ nav-bar-colors {
 .card {
   margin: 7px;
 }
-.cars-size {
+/* .cars-size {
 
-}
+} */
 
 .bsoct {
   background-color: #353a40;
