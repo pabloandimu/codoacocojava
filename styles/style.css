@@ -197,10 +197,28 @@ nav-bar-colors {
 
 
 @media screen and (max-width: 1000px){
-.carousel-inner {
+.carousel-inner{
   display: none;
 }
 }
+
+@media screen and (max-width: 1000px){
+  .carousel-control-prev{
+    display: none;
+  }
+  }
+
+  @media screen and (max-width: 1000px){
+    .carousel-control-next{
+      display: none;
+    }
+    }
+
+    @media screen and (max-width: 1000px){
+      .carousel-indicators{
+        display: none;
+      }
+      }
 
 
 .carouselExampleCaptions {
