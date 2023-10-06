@@ -245,7 +245,7 @@ nav-bar-colors {
 } */
 
 .celu {
-  font-weight: 700;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 1104px) {
@@ -376,4 +376,26 @@ nav-bar-colors {
   padding-left: 2rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.nav-footer {
+  text-decoration:none;
+  color: #fefefe
+}
+
+/* BOTON FLOTANTE */
+
+.cmn-divfloat {
+  position: fixed !important;
+  bottom: 45px;
+  right: 15px;
+  display: none;
+}
+.cmn-btncircle {
+  width: 40px !important;
+  height: 40px !important;
+  padding: 6px 0px;
+  border-radius: 15px;
+  font-size: 18px;
+  text-align: center;
 }
