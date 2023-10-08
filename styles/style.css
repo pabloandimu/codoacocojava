@@ -37,9 +37,26 @@
   color: #fefffb;
 }
 
-.size-nav {
-  font-size: x-large;
+@media screen and (min-width: 767px) {
+  .size-nav {
+    font-size: 1.25vw;
+  }
 }
+
+/* @media screen and (min-width: 1300px) {
+  .size-nav {
+    font-size: 1.45vw;
+  }
+} */
+
+@media screen and (max-width: 767px) {
+  .size-nav {
+    font-size: 1.5rem;
+  }
+}
+/* .size-nav {
+  font-size: 1.25vw;
+} */
 
 .ul-espaciado {
   margin-top: 0.3rem;
@@ -79,8 +96,6 @@ nav-bar-colors {
   height: 100%;
   max-height: 100%;
   margin-bottom: -82px;
-  /* max-height: 500px; */
-  /* max-height: 80%; */
 }
 
 .carousel-item active {
@@ -169,7 +184,6 @@ nav-bar-colors {
   color: #fefffb;
   border-color: #fefffb;
   font-size: 1.52rem;
-
   margin-right: 0.3rem;
   margin-top: 0.9rem;
   margin-left: 0.7rem;
