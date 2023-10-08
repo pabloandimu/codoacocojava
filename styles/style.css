@@ -216,7 +216,7 @@ nav-bar-colors {
 .conten2 {
   margin: 0px;
   padding: 0px;
-  margin-top: 3rem;
+  margin-top: 2.1rem;
 }
 
 .card {
@@ -256,6 +256,7 @@ nav-bar-colors {
 }
 
 .letrasFooter {
+  /* text-align: left; */
   font-size: 1.3rem;
   padding-left: 2rem;
   padding-top: 2rem;
