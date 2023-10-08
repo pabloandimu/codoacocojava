@@ -6,6 +6,7 @@ El resultado es el que se muestra en la <b> IMAGEN 2 </b> , a continuación de l
 <h3> COMPARACION ONLINE </h3>
 
 <h3> IMAGEN 1 (imagen <b> ORIGINAL </b> ) colocada en el NAVEGADOR </h3>
+<h4> se recomienda abrir cada uno de los enlaces en una pestaña nueva para compararlos </h4>
 
 https://pabloandimu.github.io/codoacodojava23544/demo-foto-original.html
 
