@@ -9,6 +9,8 @@ https://pabloandimu.github.io/codoacodojava23544/demo-foto-original.html
 
 <h3> <b> SITIO WEB CREADO </b>  </h3>
 
+-------------------------------------------------------------------
+
 <h3> IMAGEN 1 (imagen <b> ORIGINAL </b> ) </h3>
 
 https://pabloandimu.github.io/codoacodojava23544/
