@@ -6,6 +6,7 @@ El resultado es el que se muestra en la <b> IMAGEN 2 </b> , a continuación de l
 <h3> COMPARACION ONLINE </h3>
 
 <h3> IMAGEN 1 (imagen <b> ORIGINAL </b> ) colocada en el NAVEGADOR </h3>
+<h4> se recomienda abrir cada uno de los enlaces en una pestaña nueva para compararlos </h4>
 
 https://pabloandimu.github.io/codoacodojava23544/demo-foto-original.html
 
@@ -28,4 +29,8 @@ https://pabloandimu.github.io/codoacodojava23544/
 
 <h4> Dentro del marco rojo, destaco, una funcionalidad que incluí en la web, que es un botón flotante, que permite volver al inicio, sin necesidad de scrollear manualmente. </h4>
 
+-------------------------------------------------------------------
 
+<h3> Comparación en Video (copia de imagen, trabajada en resolución 1920 x 1080) </h3>
+
+[![Alt text](https://img.youtube.com/vi/3RFAX3CbSGA/0.jpg)](https://www.youtube.com/watch?v=AtMIMJRlbJs)
