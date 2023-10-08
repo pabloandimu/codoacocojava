@@ -33,4 +33,4 @@ https://pabloandimu.github.io/codoacodojava23544/
 
 <h3> Comparación en Video (copia de imagen, trabajada en resolución 1920 x 1080) </h3>
 
-[![Alt text](https://img.youtube.com/vi/configuroweb/0.jpg)](https://www.youtube.com/watch?v=AtMIMJRlbJs)
+[![Alt text]([https://img.youtube.com/vi/configuroweb/0.jpg](https://i9.ytimg.com/vi/AtMIMJRlbJs/mqdefault.jpg?sqp=CNS3jKkG-oaymwEmCMACELQB8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGGUgVihNMA8=&rs=AOn4CLD-HI3VLsiRlyugA6AtoaSkumF3pw)https://i9.ytimg.com/vi/AtMIMJRlbJs/mqdefault.jpg?sqp=CNS3jKkG-oaymwEmCMACELQB8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGGUgVihNMA8=&rs=AOn4CLD-HI3VLsiRlyugA6AtoaSkumF3pw)](https://www.youtube.com/watch?v=AtMIMJRlbJs)
