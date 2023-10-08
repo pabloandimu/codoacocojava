@@ -29,4 +29,8 @@ https://pabloandimu.github.io/codoacodojava23544/
 
 <h4> Dentro del marco rojo, destaco, una funcionalidad que incluí en la web, que es un botón flotante, que permite volver al inicio, sin necesidad de scrollear manualmente. </h4>
 
+-------------------------------------------------------------------
 
+<h3> Comparación en Video (copia de imagen, trabajada en resolución 1920 x 1080) </h3>
+
+[![Alt text](https://img.youtube.com/vi/configuroweb/0.jpg)](https://www.youtube.com/watch?v=AtMIMJRlbJs)
