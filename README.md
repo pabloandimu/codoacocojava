@@ -1,3 +1,3 @@
-<h2 align="center"> TP Integrador Front End Cac 23544 | HTML CSS Boostrap </h2>
+<h2> TP Integrador Front End Cac 23544 | HTML CSS Boostrap </h2>
 
 
