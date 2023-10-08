@@ -33,4 +33,4 @@ https://pabloandimu.github.io/codoacodojava23544/
 
 <h3> Comparación en Video (copia de imagen, trabajada en resolución 1920 x 1080) </h3>
 
-[![Alt text](https://img.youtube.com/vi/3RFAX3CbSGA/0.jpg)](https://www.youtube.com/watch?v=3RFAX3CbSGA)
+[![Alt text](https://img.youtube.com/vi/3RFAX3CbSGA/0.jpg)](https://www.youtube.com/watch?v=AtMIMJRlbJs)
