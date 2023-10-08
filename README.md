@@ -7,5 +7,8 @@ El resultado es el se muestra en la <b> IMAGEN 2 </b> , a continuación de la 1.
 
 ![Imagen del Sito WEB a replicar](https://github.com/pabloandimu/codoacodojava23544/assets/98019149/ad3da59c-0ddb-4a36-9504-77c171efc5eb)
 
+<h3> IMAGEN 1 </h3>
+
+![Resultado replicado en TP Integrador](https://github.com/pabloandimu/codoacodojava23544/assets/98019149/166cfbfd-a658-47f8-a5c6-b8ae11270a59)
 
 
