@@ -32,5 +32,5 @@ https://pabloandimu.github.io/codoacodojava23544/
 -------------------------------------------------------------------
 
 <h3> Comparación en Video (copia de imagen, trabajada en resolución 1920 x 1080) </h3>
-
-[![imagen de video en YouTubet](https://github.com/pabloandimu/codoacodojava23544/assets/98019149/aaa8ca86-49ce-4a7a-a97e-3cf7541a7dbd)](https://www.youtube.com/watch?v=AtMIMJRlbJs)
+![video](https://github.com/pabloandimu/codoacodojava23544/assets/98019149/aaa8ca86-49ce-4a7a-a97e-3cf7541a7dbd)
+[![imagen de video en YouTube(https://github.com/pabloandimu/codoacodojava23544/assets/98019149/aaa8ca86-49ce-4a7a-a97e-3cf7541a7dbd)](https://www.youtube.com/watch?v=AtMIMJRlbJs)
