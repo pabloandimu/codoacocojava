@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- HEAD META LINKS -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TP Conf Bs As | Tickets</title>
+
+  <!-- Acá están los estilos de Boostrap, íconos de Boostrap y los estilos propios -->
+
+  <!-- Estilos BOOSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!-- Íconos BOOSTRAP -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/tickets.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./images/codoacodo.png">
+</head>
+
+<!-- BODY -->
+
+<body>
+  <a name="span-top"></a>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-md ">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" style="background-color: #ed9519;"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand d-flex justify-content-around align-content-center" href="#">
+          <!-- <img src="./images/codoacodo.png" class="logo" alt=""> -->
+          <h2 class="h2-nav d-flex">Conf Bs As</h2>
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-content-center size-nav ul-espaciado">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">La conferencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#oradores">Los oradores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#lugar">El lugar y la fecha</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#conviertete">Conviértete en orador</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#comprarTickets" style="color: #97c93f;">Comprar tickets</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--  FINAL DE NAVBAR -->
+
+  <!-- CARDS DE ESTUDIANTE TRAINEE AND JUNIOR -->
+
+  <div class="container w-75 text-center justify-content-center" style="max-width: 1120px;">
+    <div class="row" style="margin-top: 2.5rem;">
+      <div class="col m-1 p-1 border-2" style="border: solid; border-color: #007bff;">
+        <h1 class="mt-4">Estudiante</h1>
+        <h3 class="mt-4" style="font-weight: normal;">Tienen un descuento</h3>
+        <h2 style="margin-top: 2.3rem; font-weight: 700;">80%</h2>
+        <h4 style="margin-top: 2.3rem; margin-bottom: 2.3rem; font-weight: normal; color: rgb(144, 144, 144);">*
+          presentar documentación</h4>
+      </div>
+
+      <div class="col m-1 p-1 border-2" style="border: solid; border-color: #17a2b8;">
+        <h1 class="mt-4">Trainee</h1>
+        <h3 class="mt-4" style="font-weight: normal;">Tienen un descuento</h3>
+        <h2 style="margin-top: 2.3rem; font-weight: 700;">50%</h2>
+        <h4 style="margin-top: 2.3rem; margin-bottom: 2.3rem; font-weight: normal; color: rgb(144, 144, 144);">*
+          presentar documentación</h4>
+      </div>
+
+      <div class="col m-1 p-1 border-2" style="border: solid; border-color: #ffc107;">
+        <h1 class="mt-4">Junior</h1>
+        <h3 class="mt-4" style="font-weight: normal;">Tienen un descuento</h3>
+        <h2 style="margin-top: 2.3rem; font-weight: 700;">15%</h2>
+        <h4 style="margin-top: 2.3rem; margin-bottom: 2.3rem; font-weight: normal; color: rgb(144, 144, 144);">*
+          presentar documentación</h4>
+      </div>
+
+    </div>
+
+    <!-- <a name="oradores"></a> -->
+    <div>
+      <p class="venta d-flex justify-content-center">VENTA</p>
+      <h1 class="valor d-flex justify-content-center">VALOR DE TICKET $200</h1>
+    </div>
+
+    <!-- form -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col W">
+          <div class="mb-3" id="divNombre">
+            <!-- <label for="nombre" class="form-label form-control-lg"></label> -->
+            <input type="text" class="form-control form-control-lg" id="nombre" value="" placeholder="Nombre">            
+              
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="mb-3">
+            <!-- <label for="exampleFormControlInput1" class="form-label form-control-lg"></label> -->
+            <input type="text" class="form-control form-control-lg" id="apellido" placeholder="Apellido">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div class="mb-3">
+            <!-- <label for="exampleFormControlInput1" class="form-label form-control-lg"></label> -->
+            <input type="email" class="form-control form-control-lg" id="correo" placeholder="Correo">
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col" style="text-align: start;">
+          <div class="mb-3">
+            <label for="cantidad" class="form-label form-control-lg">Cantidad</label>
+            <input type="number" class="form-control form-control-lg" id="cantidad" placeholder="cantidad">
+          </div>
+        </div>
+
+        <div class="col" style="text-align: start;">
+          <div class="mb-3">
+            <label for="categoria" class="form-label form-control-lg" >Categoria</label>
+            <select id="categoria" class="form-select form-select-lg mb-3" aria-label="Large select example">
+              <option value="" disabled selected >Categoria</option>
+              <option value="1" id="estudiante">Estudiante</option>
+              <option value="2" id="trainee">Trainee</option>
+              <option value="3" id="junior">Junior</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="alert alert-primary mt-4 mb-4" role="alert">
+      <div class="m-3" style="text-align: start; font-size: larger;">
+        Total a Pagar: $<span id="resu"></span>
+      </div>     
+    </div>
+
+
+    <div class="container mt-5" style="margin: 0px; width: 100%;">
+      <div class="row">
+        <div class="col">
+          <div class="mb-3 d-grid gap-2">
+            <button class="btn btn-success w-100" 
+            id="borrar"
+            type="button" 
+            style="background-color: #97c93f; border-color: #97c93f; font-size: 1.3rem;">
+            Borrar
+          </button>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="mb-3 d-grid gap-2">
+            <button class="btn btn-success" 
+            id="resumenBtn" 
+            type="submit" 
+            style="background-color: #97c93f; border-color: #97c93f; font-size: 1.3rem;">
+             Resumen
+          </button>
+          </div>
+        </div>
+      </div>
+      </div>
+
+
+  </div>
+
+<!-- MODAL -->
+
+<!-- Button trigger modal -->
+
+<!-- Modal -->
+<!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5">Resúmen de su Compra: <span id="resu">--</span></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="texto-modal">        
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+
+
+  <!-- PIE DE PAGINA FOOTER -->
+  <div class="container-fluid w-100">
+    <div class="row degradado">
+      <div class="container w-75">
+        <div class="nav-footer row letrasFooter d-flex align-items-center">
+          <div class="col "><a href="#" class="nav-footer">Preguntas frecuentes</a></div>
+          <div class="col "><a href="#" class="nav-footer">Contáctanos</a></div>
+          <div class="col " style="padding-left: 3.5rem;"><a href="#" class="nav-footer">Prensa</a></div>
+          <div class="col "><a href="#" class="nav-footer">Conferencias</a></div>
+          <div class="col "><a href="#" class="nav-footer">Términos y condiciones</a></div>
+          <div class="col "><a href="#" class="nav-footer">Privacidad</a></div>
+          <div class="col "><a href="#" class="nav-footer">Estudiantes</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FINAL DEL CODIGO MARKETEADO EN EL BODY -->
+
+  <!-- Acá está el Javascript de Boostrap -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <!-- JS DE TICKETS -->
+
+  <script src="./js/tickets.js"></script>
+</body>
+
+</html>
