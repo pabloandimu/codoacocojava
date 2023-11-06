@@ -18,10 +18,18 @@ let categoria = "";
 let resultado = 0;
 
 let select = document.getElementById('categoria');
+
+descuento = 0;
+
 select.addEventListener('change',
   function(){
     var selectedOption = this.options[select.selectedIndex];
     console.log("este el el value " + selectedOption.value);
+
+    if (selectedOption.value == "0"){
+      descuento = 0;
+    }
+    
     if (selectedOption.value == "1"){
       descuento = 0.8;
     }
@@ -33,7 +41,11 @@ select.addEventListener('change',
     }
     console.log("Se le descuenta :" + descuento);
   });
-function calcular(){
+  
+
+  function calcular(){
+
+
     
     cantidad = document.getElementById("cantidad").value;    
     nombre = document.getElementById("nombre").value
@@ -41,8 +53,10 @@ function calcular(){
     correo = document.getElementById("correo").value
 
     console.log("este es el nombre " + nombre)
+    if(descuento === 0) {
+      document.getElementById('resu').innerHTML =  "Debe elegir UNA CATEGORIA"
 
-    if(nombre === "") {
+    } else if(nombre === "") {
       document.getElementById('resu').innerHTML =  "Debe colocar SU NOMBRE"
 
     } else if(apellido ==="") {
