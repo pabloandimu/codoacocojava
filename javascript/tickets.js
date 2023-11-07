@@ -1,5 +1,3 @@
-
-console.log("hola mundo")
 // función del boton RESUMEN
 document.getElementById("resumenBtn").addEventListener("click", calcular)
 // función del botón BORRAR
@@ -19,10 +17,9 @@ let categoria = "";
 
 let resultado = 0;
 
-descuento = 0;
-console.log("este es EL DESCUENTO : " + descuento);
-
 let select = document.getElementById('categoria');
+
+descuento = 0;
 
 select.addEventListener('change',
   function(){
@@ -48,14 +45,15 @@ select.addEventListener('change',
 
   function calcular(){
 
+
+    
     cantidad = document.getElementById("cantidad").value;    
     nombre = document.getElementById("nombre").value
     apellido = document.getElementById("apellido").value
     correo = document.getElementById("correo").value
 
     console.log("este es el nombre " + nombre)
-
-    if(descuento == 0) {
+    if(descuento === 0) {
       document.getElementById('resu').innerHTML =  "Debe elegir UNA CATEGORIA"
 
     } else if(nombre === "") {
