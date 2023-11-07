@@ -80,7 +80,7 @@ select.addEventListener('change',
 };
 
 function borrar(){
-  console.log("se borro por el boton borrar")
+  console.log("borrar")
   document.getElementById('resu').innerHTML = "";
   document.getElementById('nombre').value = "";
   document.getElementById('apellido').value = "";
