@@ -78,7 +78,7 @@ select.addEventListener('change',
 };
 
 function borrar(){
-  console.log("dfadf")
+  console.log("borrar")
   document.getElementById('resu').innerHTML = "";
   document.getElementById('nombre').value = "";
   document.getElementById('apellido').value = "";
