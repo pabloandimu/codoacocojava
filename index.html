@@ -306,28 +306,40 @@
       <div class="mb-1">
         <div class="container w-50">
           <div class="row">
-            <div class="col-lg-6 col-md-9 col-sm-12">
-              <input type="text" class="form-control" placeholder="Nombre" style="font-size: large;"
+
+            <div class="col-lg-6 col-md-12 col-sm-12" style="margin-bottom: 1rem;">
+              <input type="text" class="form-control" placeholder="Nombre" id="nombre" style="font-size: large;"
                 aria-label="First name">
             </div>
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Apellido" style="font-size: large;"
-                aria-label="Last name">
+
+            <div class="col-lg-6 col-md-12 col-sm-12" style="margin-bottom: 1rem;">
+              <input type="text" class="form-control" placeholder="Apellido" id="apellido" style="font-size: large;"
+                aria-label="Last name" >
             </div>
+
+            <div class="col-lg-12 col-md-12 col-sm-12">
+              <input type="text" class="form-control" placeholder="Email" id="email" style="font-size: large; margin-bottom: 1rem;"
+                aria-label="Email">
+            </div>
+
             <div class="rox">
               <div class="col">
-                <label for="exampleFormControlTextarea1" class="form-label"></label>
-                <textarea class="form-control hablar" id="exampleFormControlTextarea1"
-                  placeholder="Sobre qué quieres hablar?"
-                  style="font-size: 1.5rem; padding-left: 1rem; color: #a4b0bc; backdrop-filter: blur(10000px);"
-                  rows="3"></textarea>
-                <div id="textareahelp" class="form-text" style="font-size: medium;">Recuerda incluir un título para tu
-                  charla</div>
+                <input type="text" class="form-control" placeholder="Tema" id="tema" style="font-size: large;"
+                aria-label="Email" style="font-size: 1.5rem; padding-left: 1rem; color: #a4b0bc; backdrop-filter: blur(10000px);">
 
+                <!-- <label for="exampleFormControlTextarea1" class="form-label"></label>
+                <textarea class="form-control hablar" id="exampleFormControlTextarea1"
+                  placeholder="Sobre qué quieres hablar?" id="tema"
+                  style="font-size: 1.5rem; padding-left: 1rem; color: #a4b0bc; backdrop-filter: blur(10000px);"
+                  rows="3"></textarea> -->
+
+                <div id="textareahelp" class="form-text" style="font-size: medium;">Recuerda incluir un TEMA para tu
+                  charla</div>
               </div>
+              
               <div class="row">
                 <div class="col">
-                  <button type="submit" class="btn btn-info"
+                  <button type="button" id="btnCrear" class="btn btn-info"
                     style="width: 100%; margin-bottom: 0.3rem; margin-top: 1rem; padding: 0.5rem; font-size: 1.6rem; background-color: #96c93e; border-color: #96c93e; color: #fefffb;">Enviar</button>
                 </div>
               </div>
@@ -337,6 +349,77 @@
         </div>
 
     </form>
+    
+  </div>
+
+  <div>
+    <div id="mostrar" class="container w-50">
+      <button type="submit" class="btn btn-info" id="conocerALosOradores"
+      style="width: 100%; margin-bottom: 0.3rem; margin-top: 1rem; padding: 0.5rem; font-size: 1.6rem; background-color: #e4bd0f; border-color: #e4bd0f; color: #ffffff;" onclick="mostrarListado()">CONOCÉ A TODOS LOS ORADORES INSCRIPTOS</button>
+    </div>
+  </div>
+
+  <!-- LISTADO-->
+
+  <div id="listadoAparecido" style="display: none">
+    <div class="container" style="margin-top: 2rem;">
+      <div class="row">
+          <div class="col-12 mt-2">
+              <button class="btn btn-success" id="btnGetUsers" style="background-color: #96c93e; border-color: #96c93e; color: #fefffb;">
+                  Listar Oradores
+              </button>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-12 mt-1" id="msj">
+  
+          </div>
+          <div class="col-12">
+              <div id="users">
+                  <table class="table">
+                      <thead>
+                      <tr>
+                          <th scope="col">ID</th>
+                          <th scope="col">Nombre</th>
+                          <th scope="col">Apellido</th>
+                          <th scope="col">Tema</th>
+                          <th scope="col">Email</th>
+                          <th scope="col">&nbsp;</th>
+                      </tr>
+                      </thead>
+                      <tbody id="usersRows">                          
+                      </tbody>
+                  </table>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+              <input id="nombreActualizar">
+              <input id="apellidoActualizar">
+              <input id="mailActualizar"> 
+              <input id="temaActualizar">
+          </div>
+          <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="btnCerrarModal">
+              Cancelar
+          </button>
+          <button type="button" class="btn btn-primary" onclick="actualizarOrador()">
+              Actualizar
+          </button>
+          </div>
+      </div>
+      </div>
+  </div> 
   </div>
 
   <!-- PIE DE PAGINA FOOTER -->
@@ -355,6 +438,7 @@
       </div>
     </div>
   </div>
+  
 
   <!-- FINAL DEL CODIGO MARKETEADO EN EL BODY -->
 
@@ -367,6 +451,7 @@
   <!-- JS DE BOTON FLOTANTE -->
 
   <script src="./js/main.js"></script>
+  <script src="./js/index.js"></script>
 </body>
 
 </html>
