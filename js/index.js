@@ -19,11 +19,19 @@
         .then(json => {
             alert(`Alta de orador id:${json.id} correcta`);
             listarOradores();
+            limpiarCampoCrear();
         })
         .catch(err => console.log(err));
     }
 
     document.getElementById("btnCrear").addEventListener('click',crearOperador);
+
+    limpiarCampoCrear  = () => {
+        document.getElementById("nombre").value = "";
+         document.getElementById("apellido").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("tema").value = "";
+    }
 
 
 //<!--listado-->
@@ -181,7 +189,20 @@
         document.getElementById('btnCerrarModal').click();
     }
 
+    // MOSTRAR LISTADO OCULTO DE ORADORES
     const mostrarListado = () => {
+        document.getElementById("listadoAparecido").style.display="block"; 
         document.getElementById("conocerALosOradores").style.display="none";
-        document.getElementById("listadoAparecido").style.display="block";
+        document.getElementById("btnGetUsers").style.display="none";        
+        document.getElementById('btnGetUsers').click();
+        
+        setTimeout(() => {
+            llevarAncla ();
+          }, "50");
+
+    }
+
+    // DESPLAZAR A ANCLAR MOSTRAR LISTADO
+    const llevarAncla = () => {
+        document.getElementById('listadoOradoresVisible').click(); 
     }
